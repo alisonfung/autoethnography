@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/autoethnography/static/css/main.073c9b0a.css",
-    "main.js": "/autoethnography/static/js/main.20d50f52.js",
+    "main.js": "/autoethnography/static/js/main.6a3bf00a.js",
+    "static/media/Beach.png": "/autoethnography/static/media/Beach.ce63bd5ffa958caf81d9.png",
     "index.html": "/autoethnography/index.html",
     "main.073c9b0a.css.map": "/autoethnography/static/css/main.073c9b0a.css.map",
-    "main.20d50f52.js.map": "/autoethnography/static/js/main.20d50f52.js.map"
+    "main.6a3bf00a.js.map": "/autoethnography/static/js/main.6a3bf00a.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.20d50f52.js"
+    "static/js/main.6a3bf00a.js"
   ]
 }
