@@ -10,9 +10,10 @@ import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 
-function InputBoxButton({answer, route, endAdornment="", startAdornment="", hint, image, imageTitle, location, description}){
+function InputBoxButton({answer, route, endAdornment="", startAdornment="", hint, location, description, mapLink}){
 
     const [field, setField] = useState('');
     const [error, setError] = useState(false);
@@ -25,7 +26,7 @@ function InputBoxButton({answer, route, endAdornment="", startAdornment="", hint
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        if (answer === field) {
+        if (answer === field.trim().toLowerCase()) {
             setAnchorEl(e.currentTarget);
         } else {
             setError(true);
@@ -99,37 +100,25 @@ function InputBoxButton({answer, route, endAdornment="", startAdornment="", hint
                         <Card sx={{ width: 500 }}>
                         <CardMedia
                             sx={{ height: 350 }}
-                            image= {image}
-                            title= {imageTitle}
+                            component = "iframe"
+                            src = {mapLink}
                         />
                         <CardContent>
-                            <Typography gutterBottom variant="h5" component="div">
+                            <Typography gutterBottom variant="h5" component="div" style={{ wordWrap: "break-word" }}>
                             {location}
                             </Typography>
-                            <Typography variant="body2" color="text.secondary">
+                            <Typography variant="body2" color="text.secondary" style={{ wordWrap: "break-word" }}>
                             {description}
                             </Typography>
                         </CardContent>
                         <CardActions>
-                        <Grid item>
-                            <Grid 
-                            container
-                            spacing={5}
-                            direction="row"
-                            justifyContent="center"
-                            alignItems="center">
-                            <Grid item>
                             <Button size="small"
+                                endIcon = {<ArrowForwardIcon/>}
                                 onClick = {() => {
-                                    window.location.href = "/";
+                                    window.location.href = route;
                                 }}
                             >Continue</Button>
-                            </Grid>
-                            <Grid item>
-                            <Button size="small">Open in Google Maps</Button>
-                            </Grid>
-                            </Grid>
-                        </Grid>
+                    
                         </CardActions>
                         </Card>
                         </Popover>
@@ -143,7 +132,7 @@ function InputBoxButton({answer, route, endAdornment="", startAdornment="", hint
                     </Button>
                 </Grid>
                 <Grid item>
-                {displayHint && <Typography variant="subtitle1"
+                {displayHint && <Typography variant="subtitle1" style={{ wordWrap: "break-word" }}
                         >
                     HINT: {hint}
                     </Typography>

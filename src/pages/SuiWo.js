@@ -5,7 +5,7 @@ import InputBoxButton from '../components/InputBoxButton';
 import InputAdornment from '@mui/material/InputAdornment';
 import Typography from '@mui/material/Typography';
 
-function Start(){
+function SuiWo(){
 
     return(
         <div style={{
@@ -31,33 +31,30 @@ function Start(){
                 <Grid item>
                     <Typography variant="h2"
                     style={{ wordWrap: "break-word" }}>
-                        1. CX881
+                    7. Take the bus to 穗禾苑
                     </Typography>
                 </Grid>
-                <Grid item>
+                <Grid>
                     <Typography variant="subtitle1"
                     style={{ wordWrap: "break-word" }}
                     ml={6}
                     mr={6}>
-                        Round to three decimal places.
+                        Name another bus line here.
                     </Typography>
-
                 </Grid>
-                <InputBoxButton answer = '22.308'
-                                route = '/DB02R'
-                                endAdornment = {<InputAdornment position="end">N°</InputAdornment>} 
-                                hint = 'What is the langitude coordinate for the destination?'
-                                location = 'HKG'
-                                description = {"The only major airport in Hong Kong. This is a picture of the baggage claim area which leads into the arrival hall. I've arrived here countless times with my mom, and it has many different public transportation options to get to everywhere in the city. As soon as you step outside the airport, you instantly feel the humid weather."}
-                                mapLink = 'https://www.google.com/maps/embed?pb=!4v1677280761641!6m8!1m7!1sCAoSLEFGMVFpcE4zZnlLb21xUXgzSGwzYjdRZ3FFZE04QXgxbGhFYWE3c05Namph!2m2!1d22.3163573!2d113.9342928!3f187.7239152047503!4f-4.107138481319893!5f0.7820865974627469'
-                                 />
+                <InputBoxButton answer = '80'
+                                route = '/Temple'
+                                endAdornment = {<InputAdornment position="end">M</InputAdornment>} 
+                                hint = 'You should be at Sui Wo Court. Find out what bus line ends in "M" that departs from there.'
+                                location = 'Sui Wo Court'
+                                description = {"My mom's brother lives here, as did their mom before she passed away a few years ago. The apartment buildings here are lower-end and smaller, with elevators only going to some floors. Every weekend, my mom, her sister, and I would take the 811 bus up to the apartment here and have dinner together."}
+                                mapLink = 'https://www.google.com/maps/embed?pb=!4v1677480035760!6m8!1m7!1sCAoSLEFGMVFpcE5ZQmJINHhJYzMzcF9fcERQbWNaWkVwdXJKWFFVa09EWVowZFdI!2m2!1d22.3926121!2d114.1944089!3f357.4852872713759!4f27.53816662514629!5f1.1924812503605782'
+                                />
             </Grid>
-            
-        </Box>
-       
+        </Box>  
       </div>
       
     )
 }
 
-export default Start;
+export default SuiWo;
