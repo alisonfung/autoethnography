@@ -30,9 +30,9 @@ Belows are answers to each part of the puzzle in case you are stuck, along with 
     * The answer is `East` for `East Rail Line`, the line that the Fo Tan station is on.
     
 6. After exiting Fo Tan MTR Station Exit C, head left and continue down the street for a quite a while. What is the bus number on this sign, indicated by the red circle? (The first one, no letters)
-INSERT IMAGE
+![Bus Stop](https://github.com/alisonfung/autoethnography/blob/initial/src/images/BusStop.png?raw=true)
     * Exit C for Fo Tan Station can be seen on Google Maps as shown in the below image and on Street View [here](https://goo.gl/maps/KFfTAjVvwC8ZqUoC6). If you turn left while exiting and continue down Lok King Street, you will eventually reach this bus stop in the above image. 
-    INSERT IMAGE
+![Fo Tan Map](https://github.com/alisonfung/autoethnography/blob/initial/src/images/FoTanMap.png?raw=true)
     * The answer is `811`. The original unedited image is [here](https://goo.gl/maps/n2wGd2MwH6on1xLHA).
     
 7. Take the bus to 穗禾苑. Name another bus line here.
@@ -41,7 +41,7 @@ INSERT IMAGE
     These are listed on the Google Maps page for Sui Wo Court Bus Terminus [here](https://goo.gl/maps/zCn3Q5JrBwv6CbRX6). 
     
 8. Starting from the nearest MTR station, ride 4 stops towards Lo Wu/Lok Ma Chau, then find this temple near the station. What road is it on?
-INSERT IMAGE
+![Fung Ying Seen Koon](https://github.com/alisonfung/autoethnography/blob/initial/src/images/Temple.png?raw=true)
     * The nearest MTR Station from Sui Wo Court is Fo Tan. Riding four stops in the Lo Wu/Lok Ma Chau direction puts you at Fanling. Searching for "temples near Fanling" will show "Fung Ying Seen Koon" in some of the top results. Clicking on Street View near the temple will reveal that this is the same temple in the image.
     * The answer is `Pak Wo`, for the road that Fung Ying Seen Koon is on. The original image for the question is [here](https://goo.gl/maps/q5qqvrFQxu5PgjDn6).
-
+    
